@@ -24,7 +24,7 @@ public class ModeloTablaPersona extends DefaultTableModel {
         // Aquí devolvemos true o false según queramos que una celda
         // identificada por fila,columna (row,column), sea o no editable
         // En nuestro caso ninguna celda se edita
-        return true;
+        return false;
     }
 
 }

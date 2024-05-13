@@ -21,6 +21,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     public VentanaPrincipal() {
         lista= new ListaDonantes();
         initComponents();
+        
         cargarDatosJTable();
         
     }
